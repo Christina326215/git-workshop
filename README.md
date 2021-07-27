@@ -75,10 +75,10 @@ $ cat {檔案名稱}
 $ git add {檔案名稱}
 
 ## 將暫存區域(staging area)中的檔案加入到儲存庫(repository)
-$ git commit -m {檔案名稱}
+$ git commit -m "敘述"
 
 ## 同時 add 跟 commit，只有針對已經 tracked 檔案才有效(非新建)
-$ git commit -am {檔案名稱}
+$ git commit -am "敘述"
 
 ##  從 git 中移除，且真的移掉檔案 
 $ git rm {檔案名稱}
