@@ -19,6 +19,14 @@ version: 20210724
 ---
 ## 基本終端機與git指令
 
+#### git相關設定
+```bash=
+$ git --version
+$ git config --global user.name "<使用者名字>"
+$ git config --global user.email "<電子信箱>"
+$ git init
+```
+
 #### 查看所有清單
 ```bash=
 $ ls --al
