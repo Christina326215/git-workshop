@@ -186,7 +186,9 @@ $ git branch -d {branch-name}
 ![](https://i.imgur.com/rV7GdFn.png)
 
 參數的意義，不同指令會不一樣，但通常會是這樣
+
 -a ==> all   全部
+
 -f ==> force 強制
 
 | Windows | MacOS/Linux | 說明 |
@@ -203,8 +205,12 @@ $ git branch -d {branch-name}
 
 #### 套件管理系統
 PHP => composer
+
 Unix-like / Linux-like
+
 MacOS => brew
+
 Ubuntu => apt
+
 CentOS => yum
 
