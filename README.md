@@ -14,7 +14,7 @@ version: 20210724
 
 * 分散式版本控制系統 - 沒有「中央伺服器」，每個人的電腦上都有一個完整的數據庫，這樣工作的時候就不需要網際網路惹，因為自己的電腦上就有數據庫了。
 
-:: 而 Git 就是分散式版本控制系統。::
+==而 Git 就是分散式版本控制系統。==
 
 ---
 ## 基本終端機與git指令
@@ -29,7 +29,7 @@ $ git init
 
 #### 查看所有清單
 ```bash=
-$ ls --al
+$ ls -al
 ```
 
 #### 新增資料夾
@@ -171,5 +171,40 @@ $ git branch -M main
 $ git push -u origin main
 $ git push
 ```
+#### 刪除本地分支
+```bash= 
+$ git branch -d {branch-name}
+```
 
+#### 版本控制的狀態分為工作區、暫存區與儲存庫
+![](https://i.imgur.com/hGK7bxd.png)
+![](https://i.imgur.com/luUKlnD.png)
+
+#### git flow
+![](https://i.imgur.com/Kweo8l6.png)
+
+![](https://i.imgur.com/rV7GdFn.png)
+
+參數的意義，不同指令會不一樣，但通常會是這樣
+-a ==> all   全部
+-f ==> force 強制
+
+| Windows | MacOS/Linux | 說明 |
+| -------- | -------- | -------- |
+| cd     | cd     | 切換目錄 change directory    |
+| cd     | pwd     | 顯示目前所在路徑     |
+| dir     | ls     | 列出目前檔案夾的檔案列表  list   |
+| mkdir     | mkdir     | 建立新的檔案夾  make dir   |
+| copy     | cp     | 複製檔案   copy  |
+| move     | mv     | 移動檔案   move  |
+| del     | rm     | 刪除檔案    remove |
+| cls     | clear     | 清除畫面上的內容     |
+
+
+#### 套件管理系統
+PHP => composer
+Unix-like / Linux-like
+MacOS => brew
+Ubuntu => apt
+CentOS => yum
 
