@@ -175,6 +175,8 @@ $ git push
 ```bash= 
 $ git branch -d {branch-name}
 ```
+#### 從github上clone下來
+$ git clone {url}
 
 #### 版本控制的狀態分為工作區、暫存區與儲存庫
 ![](https://i.imgur.com/hGK7bxd.png)
